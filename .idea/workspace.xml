@@ -4,21 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b50f3337-95aa-4a7e-95cc-abe0ff920c68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Fizzbuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Methoden.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FizzbuzzTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SumSquareOrSubstractTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="b50f3337-95aa-4a7e-95cc-abe0ff920c68" name="Changes" comment="First Commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,11 +71,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677746539001</updated>
-      <workItem from="1677746540129" duration="2046000" />
+      <workItem from="1677746540129" duration="2495000" />
     </task>
+    <task id="LOCAL-00001" summary="First Commit">
+      <created>1677749032425</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677749032425</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
   </component>
 </project>
