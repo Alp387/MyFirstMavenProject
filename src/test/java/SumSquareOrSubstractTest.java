@@ -1,55 +1,71 @@
 import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class SumSquareOrSubstractTest {
 
 
     @Test
-    void firstValueLarger(){
+    void firstValueLarger() {
         //GIVE
-        int a= 10;
-        int b= 5;
+        int a = 10;
+        int b = 5;
         //WHEN
-        int result = Methoden.sumSquareOrSubstract(a,b);
+        int result = Methoden.sumSquareOrSubstract(a, b);
         //THEN
-    assertEquals(15,result);
+        assertEquals(15, result);
+    }
+
+    @Test
+    void bothValueSame() {
+        //GIVE
+        int a = 10;
+        int b = 10;
+        //WHEN
+        int result = Methoden.sumSquareOrSubstract(a, b);
+        //THEN
+        assertEquals(100, result);
+    }
+
+
+    @Test
+    void firstValueNotLarger() {
+        //GIVE
+        int a = 10;
+        int b = 15;
+        //WHEN
+        int result = Methoden.sumSquareOrSubstract(a, b);
+        //THEN
+        assertEquals(150, result);
 
     }
 
     @Test
-    void firstValueNotLarger(){
-        //GIVE
-        int a= 10;
-        int b= 15;
-        //WHEN
-        int result = Methoden.sumSquareOrSubstract(a,b);
-        //THEN
-        assertEquals(150,result);
-
-    }
-    @Test
-    void boolIsTrueThenSubstract(){
+    void boolIsTrueThenSubstract() {
         //GIVE
         int a = 5;
         int b = 10;
         boolean c = true;
         //WHEN
-        int result = Methoden.sumSquareOrSubstract(a,b,c);
+        int result = Methoden.sumSquareOrSubstract(a, b, c);
         //THEN
-        assertEquals(-5,result);
+        assertEquals(-5, result);
 
     }
+
     @Test
-    void boolIsFalseThenSubstract(){
+    void boolIsFalseThenSubstract() {
         //GIVE
         int a = 5;
         int b = 10;
         boolean c = false;
         //WHEN
-        int result = Methoden.sumSquareOrSubstract(a,b,c);
+        int result = Methoden.sumSquareOrSubstract(a, b, c);
         //THEN
-        assertEquals(50,result);
+        assertEquals(50, result);
 
     }
+
 
 
 //    @Test
